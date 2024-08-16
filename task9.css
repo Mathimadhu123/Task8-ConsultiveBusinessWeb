@@ -1,0 +1,190 @@
+body{
+    font-family: lato;
+    font-weight: 400;
+    font-style: normal;
+    background-image: linear-gradient(to right, rgb(0,0,0) 35%, rgb(35, 35, 39) 10%);
+    color: white ;
+    overflow: hidden;
+    margin: 36px;
+}
+.sp1{
+    font-size: 3vw;
+    letter-spacing: 0.3vw;
+}.n{
+    font-size: 3vw;
+    letter-spacing: 0.4vw;
+}
+.sp2{
+    font: 3vw;
+    letter-spacing: 0.3vw;
+    color: grey;
+}
+.container{
+  float: left;
+}
+.break {
+    display: none;
+  }
+
+
+#sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>a{
+    margin: 29px;
+}
+section{
+    margin: 15px;
+}
+p>img{
+    margin-left: 125px;
+    height:250px;
+    z-index: -1;
+   
+    filter: brightness(0.67);
+}
+.content{
+    display: flex;
+    
+}
+.container>p>img{
+    margin-top: 1px;
+    border: white 5px;
+}
+.content>div{
+    margin-top: 5%;
+}
+.content2{
+    background-color: black;
+    width:102%;
+    height: 280px;
+
+}
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+  }
+  .work-ex{
+    font-size: 25px;
+    line-height: 0;
+  }
+  .num{
+    color: rgb(128, 128, 228);
+    font-size: 40px;
+    line-height: 0;
+  }
+  .grid{
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: auto auto auto;
+  }
+  .content2{
+    margin: 12px 25px;
+    overflow: hidden;
+  }
+  .contrainer > img{
+     margin-left: 150px;
+  }
+  .p{
+    font-size: 15px;
+  }
+  #g{
+    color: rgb(179, 74, 74);
+    font-size: 20px;
+  }
+  #f{
+    color: rgb(50, 148, 132);
+    font-size: 20px;
+  }
+  
+  #m{
+    color: rgb(173, 47, 106);
+    font-size: 20px;
+  }
+  .w{
+    font-size: 25px;
+  }
+  .work-ex{
+    font-size: 18px;
+  }
+@media only screen and (max-width: 500px) {
+    /* Styles for mobile devices */
+    img{
+        width: 100%;
+    }
+    .p{
+        font-size: 12px;
+    }
+    .menu-icon {
+        display: block;
+      }
+      /* #sec{
+        width: 100%;
+      } */
+    body{
+        background-image: linear-gradient(to right, rgb(0,0,0) 35%, rgb(2, 2, 5) 10%);
+        width:100%;
+        overflow: visible;
+    }
+    .sp1{
+        font-size: 7vw;
+        line-height: 0;
+    }
+    .sp2{
+        font-size: 7vw;
+        line-height: 0;
+    }
+    #name {
+      font-size: larger;
+      width: 100%;
+    }
+    nav>a{
+        display: none;
+    }
+    .content > img{
+        width:100%;
+    }
+    .n{
+        font-size: 30px;
+    }
+    /* contrainer{
+        font-size: 60px;
+    } */
+    .content > .container{
+      
+        display: block;
+        font-size: 100px;
+        color: aqua;
+        width: 800px;
+        margin-top: 800vw;
+    }
+    .break{
+        display:block;
+    }
+  
+    .content{
+        display:block;
+        margin:auto 20px;
+    }
+    .content2{
+        width: fit-content;
+    }
+    .grid{
+        font-size: 2vw;
+    }
+    .work-ex{
+        font-size: 3vw;
+    }
+    .container{
+        text-align: center;
+    }
+    img{
+        width:100%;
+        margin: 25px ;
+    }
+  
+  }
